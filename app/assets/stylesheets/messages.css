@@ -53,7 +53,19 @@
 .chat-header {
   height:100px;
   margin-bottom:0 40px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  
+  
+}
 
+.chat-header a {
+  padding:20px;
+  border:1px solid darkred;
+  color:darkred;
+  text-decoration: none;
+  
 }
 .messages {
   height:calc(100vh - 100px - 90px);
